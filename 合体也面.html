@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ <style>
+ *{margin:0;
+   padding:0;}
+   .shield{width:500px;
+   padding:100px 0 0 100px;
+
+  }
+ .p1{background-color:rgb(42,181,97);
+  width:100%;  
+  height:778px;
+  }  
+  .picture{transform:translate(200px,20px) rotate(45deg);}
+ .new img{transform:translate(0,0)rotate(0deg);
+ transition:all 1.5s ease-out 0.3s}
+ </style>
+ <div class="p1">
+ <div class="shield">
+ <img src="shield_1.png"class="picture">
+ <img src="shield_2.png"class="picture">
+ <img src="shield_3.png"class="picture"></br>
+ <img src="shield_4.png"class="picture">
+ <img src="shield_5.png"class="picture">
+ <img src="shield_6.png"class="picture"></br>
+ <img src="shield_7.png"class="picture">
+ <img src="shield_8.png"class="picture">
+ <img src="shield_9.png"class="picture">
+ </div>
+ </div>
+ <script src="1.js"> </script>
+ <script>
+ setTimeout(function(){$(".shield").addClass("new");
+
+	}, 2000);
+ </script>
+
+ </body>
+</html>
